@@ -1,0 +1,16 @@
+[
+  {
+    "key": 1,
+    "images": "/images/church_clipart_1.png",
+    "alts": "mission_statement",
+    "titles": "Mission Statement",
+    "projectDescription": "Our mission is to Glorify God by evangelizing to the lost through the preaching of the Gospel, personal witnessing and carrying on a vigorous missionary program around the world; by edifying believers through the preaching of Gods Word and maintaining a our testimony for Christ through godliness, example and good works; and by equipping members for service in the different church ministries. The Lord’s Great Commission is our mandate, and Christ is our model in translating our vision and reaching for our goals."
+  },
+  {
+    "key": 2,
+    "images": "/images/faith_statement.jpeg",
+    "alts": "statement_of_faith",
+    "titles": "Statement of Faith",
+    "projectDescription": "We believe that Jesus Christ came into this world that He might manifest God to men, fulfil prophecy and become the Redeemer of a lost world. To this end He was born of the virgin and received a human body and a sinless human nature (Luke 1:30-35; John 1: 18; 3:16; Heb. 4:15)."
+  }
+]
