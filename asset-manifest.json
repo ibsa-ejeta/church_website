@@ -1,4 +1,10 @@
 {
-  "main.js": "static/js/main.46e8f875.js",
-  "main.js.map": "static/js/main.46e8f875.js.map"
+  "files": {
+    "main.js": "/church_website/static/js/main.a142b6cf.js",
+    "index.html": "/church_website/index.html",
+    "main.a142b6cf.js.map": "/church_website/static/js/main.a142b6cf.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a142b6cf.js"
+  ]
 }
