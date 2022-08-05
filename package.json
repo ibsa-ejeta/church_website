@@ -2,8 +2,8 @@
   "name": "react-profile",
   "main": "index.js",
   "version": "0.1.0",
-  "homepage": "https://ibsa-ejeta.github.io/church_website",
-  "private": false,
+  "homepage": "https://ibsa-ejeta.github.io/church_website/",
+  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.3",
