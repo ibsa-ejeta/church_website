@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
 const Footer = (props) => {
   const classes = useStyles();
   const date = new Date();
-  const copyRight = ` © The Oromo Christian Church of Toronto - TOCCT ${date.toString().slice(10, 15)}`;
+  const copyRight = ` © Oromo Evangelical Church of Toronto - OECT ${date.toString().slice(10, 15)}`;
 
   return (
     <Box className={`${props.className}`}>

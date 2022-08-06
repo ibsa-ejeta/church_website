@@ -14,26 +14,21 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import HomeIcon from "@material-ui/icons/Home";
+import ContactMailIcon from "@material-ui/icons/ContactMail";
+import LocationCityIcon from '@material-ui/icons/LocationCity';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
+import EventIcon from '@material-ui/icons/Event';
+import LiveTvIcon from '@material-ui/icons/LiveTv';
+import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
+import AddAlertIcon from '@material-ui/icons/AddAlert';
 
 const useStyles = makeStyles(() => ({
-  // header: {
-  //   backgroundColor: "yellow",
-  //   color: "black",
-  //   boxShadow: "none",
-  //   paddingRight: "79px",
-  //   paddingLeft: "118px",
-  //   paddingTop: "1rem",
-  //   paddingBottom: "1rem",
-  //   "@media (max-width: 1200px)": {
-  //     paddingLeft: 0,
-  //   },
-  // },
-
   headerLink: {
     fontFamily: "Open Sans, sans-serif",
-    fontWeight: 400,
+    fontWeight: 300,
     fontSize: "20px",
-    marginLeft: "5rem",
+    marginLeft: "3rem",
     textDecoration: "none",
     color: "black",
     "&:hover": {
@@ -47,14 +42,7 @@ const useStyles = makeStyles(() => ({
     textDecoration: "none",
     fontSize: "20px",
     marginBottom: "1.5rem",
-  },
-  // toolbar: {
-  //   display: "flex",
-  //   justifyContent: "space-between",
-  // },
-  // drawerContainer: {
-  //   padding: "20px 30px",
-  // },
+  }
 }));
 
 const Header = (props) => {
@@ -68,30 +56,31 @@ const Header = (props) => {
     drawerContainer,
   } = useStyles();
   const {
-    pageLogo,
-    first,
-    second,
-    third,
-    fourth,
-    fifth,
-    sixth,
-    seventh,
-    icon1,
-    icon2,
-    icon3,
-    icon4,
-    icon5,
-    icon6,
-    icon7,
-    path1,
-    path2,
-    path3,
-    path4,
-    path5,
-    path6,
-    path7,
-    imgAlt,
-    imgSrc,
+    classHeader="homeHeader",
+    pageLogo=" OECT",
+    first="Home",
+    second="Services",
+    third="Locations",
+    fourth= "Ministries",
+    fifth= "Events",
+    sixth="Live Stream",
+    seventh= "Gallery",
+    icon1=<HomeIcon fontSize="small" />,
+    icon2=<AddAlertIcon fontSize="small" />,
+    icon4=<MenuBookIcon fontSize="small" />,
+    icon3=<LocationCityIcon fontSize="small" />,
+    icon5=<EventIcon fontSize="small" />,
+    icon6=<LiveTvIcon fontSize="small" />,
+    icon7=<PhotoCameraIcon fontSize="small" />,
+    path1="/",
+    path2="/Services",
+    path3="/Locations",
+    path4="/Ministries",
+    path5="/Events",
+    path6="/Live_Stream",
+    path7="/Galleries",
+    imgAlt="Cross",
+    imgSrc="/images/Oromo Evangelical Church of Toronto Logo.png"
   } = props;
 
   const [state, setState] = useState({
@@ -124,14 +113,14 @@ const Header = (props) => {
           <Grid item container sm={2} justifyContent="center" component="div">
             <Avatar alt={imgAlt} src={imgSrc} />
             &nbsp;&nbsp;
-            <Typography variant="h5" align="center">
+            <Typography variant="h6" align="center">
               {pageLogo}
             </Typography>
           </Grid>
           <Grid
             item
             container
-            justifyContent="flex-end"
+            justifyContent="center"
             sm={10}
             alignContent="center"
           >
@@ -206,7 +195,7 @@ const Header = (props) => {
   };
 
   const headerLogo = (
-    <Typography variant="h5" component="h5">
+    <Typography variant="h4" component="h4">
       {pageLogo}
     </Typography>
   );
