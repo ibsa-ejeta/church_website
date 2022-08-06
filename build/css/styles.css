@@ -1,118 +1,15 @@
 
+
 /* home page styles */
-.homePage {
-    /* background-color: red; */
-    
-    margin-left: 0;
-      margin-right: 0;
-}
- .homeIntroduction, .homePage {
-   
-    padding-top: 4rem;
-    text-align: center;  
-    background-color: yellow;
-    
-  }
-  .homeIntroduction {
-      height: 100vh;
-      padding-top: 15rem;
-      padding-left: 3rem;
-      margin: 0;
-      padding-right: 0;
-      
-  }
- 
-  .homeHeader {
-    background-color: yellow;
-    color: black;
-    box-shadow: none;
-    
-    padding: 1.5rem 0rem;
-  
-    
-
-    /* paddingRight: "79px",
-    paddingLeft: "118px",
-    paddingTop: "1rem",
-    paddingBottom: "1rem",
-    "@media (max-width: 1200px)": {
-      paddingLeft: 0,
-    }, */
-
-  }
-  .homeProjects {
-    padding-top: 4rem;
-  }
-  .projectCard {
-      background-color:yellow;
-  }
-  .homeContact {
-    height: 90vh;
-    padding-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-  .homeFooter {
-      color: black;
-      background-color: yellow;
-      height: 4rem;
-      /* width: 100vw; */
-      bottom: 0;
-      left: 0;
-  }
-  .homeClipArt {
-    
-    margin: 0;
-    padding: 0;
-   
-  }
-  @media (max-width: 576px) {
-    body {
-      font-size: small;
-    }
-    .homeClipArt {
-      padding-top: 1rem;
-      width: 80vw;
-      margin-bottom: 3rem;
-      align-items: center;
-    }
-    .homeIntroduction {
-      
-      padding-top: 7rem;
-      padding-left: 1rem;
-      
-      
-  }
-      
-  }
-
-  /* .projectContact{
-    padding-top: 9rem;
-    text-align: center;
-  } */
+/* .homePage {
+    background-color: red;
+} */
 
 /* blog page styles */
 .blogPage {
-    background-color: #FFD523;
-    height: 90vh;
+    background-color: yellow;
 }
-.blogFooter {
-    color: black;
-    background-color: green;
-    height: 4rem;
-    width: 100vw;
-    bottom: 0;
-    left: 0;
-}
-.blogHeader {
-    background-color: green;
-    color: black;
-    box-shadow: none;
-
-}
-.address {
-  padding-top: 10rem;
-  text-align: center;  
-  background-color: yellow;
-}
-
+/* landing page styles */
+/* tribute page styles */
+/* landing page styles */
+/* survey page styles */
