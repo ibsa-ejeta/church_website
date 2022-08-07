@@ -24,7 +24,17 @@ const Live_Stream = () => {
           </Typography>
         </Grid>
         <Grid item sm={12} md={9}>
-          <img src="images/facebook_profile_2.png" className="homeClipArt" />
+          <iframe 
+            src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2FOromoCCToronto%2Fvideos%2F366017864090488%2F&show_text=false&width=560&t=0" 
+            width="760" 
+            height="416" 
+            scrolling="no" 
+            frameborder="0" 
+            allowfullscreen="true" 
+            allow="autoplay; encrypted-media;" 
+            allowFullScreen
+            />
+          
         </Grid>
       </Grid>
     </Box>

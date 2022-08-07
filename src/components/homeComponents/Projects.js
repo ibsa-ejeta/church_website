@@ -79,12 +79,12 @@ const Projects = (props) => {
   }, []);
 
   const textGrid = (
-    <Grid item xs={12} md={8}>
+    <Grid item xs={12} md={7}>
       <Card className={classes.projectCard}>
-        <Typography component="h3" variant="h3" gutterBottom>
+        <Typography component="h4" variant="h4" gutterBottom>
           {titles}
         </Typography>
-        <Typography variant="body1" color="textSecondary" paragraph>
+        <Typography variant="body2" color="textSecondary" paragraph>
           {projectDescription}
         </Typography>
       </Card>
@@ -94,7 +94,7 @@ const Projects = (props) => {
     <Grid
       item
       xs={12}
-      md={4}
+      md={5}
       alignContent="center"
       justify="center"
       spacing={2}

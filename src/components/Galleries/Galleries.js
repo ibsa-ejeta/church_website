@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "../sharedComponents/Header";
-import Introduction from "../homeComponents/Introduction";
 import Footer from "../sharedComponents/Footer";
-import { Grid, Container, Paper, Box, makeStyles, Typography } from "@material-ui/core";
+import { Grid, Card, Container, Paper, Box, makeStyles, Typography } from "@material-ui/core";
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
 
 const useStyles = makeStyles(() => ({}));
 
@@ -13,20 +14,23 @@ const Galleries = () => {
       <Header
         classHeader="homeHeader"
       />
+        <Container className="homePage">
+          <AliceCarousel 
+          autoPlay 
+          autoPlayInterval="3000"
+          disableButtonsControls="true"
+          infinite="true"
+          
+          >
+            <img src="images/mothers_day.png" className="sliderimg"/>
+            <img src="images/pastor_john.jpg" className="sliderimg"/>
+            <img src="images/congregation.jpg" className="sliderimg"/>
+            <img src="images/group_photo.jpg" className="sliderimg"/>
+          </AliceCarousel>
+          
+          </Container>
       
-      <Box id="Home" component="div" className="homeIntroduction">
-      <Grid container>
-        <Grid item sm={12} md={3}>
-          <Typography variant="h4">Oromo Evangelical Church of Toronto </Typography>
-          <Typography variant="body1" component="">
-          Here are some of the things that OECT has done over the course of a couple of events. We hope to capture many more memories!
-          </Typography>
-        </Grid>
-        <Grid item sm={12} md={9}>
-          <img src="images/facebook_profile_2.png" className="homeClipArt" />
-        </Grid>
-      </Grid>
-    </Box>
+    
       <Footer className={"homeFooter"} />
     </React.Fragment>
   );

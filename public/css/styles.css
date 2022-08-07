@@ -1,21 +1,25 @@
 
 /* home page styles */
+#root {
+  background-color: yellow;
+}
+
 .homePage {
     /* background-color: red; */
     
     margin-left: 0;
-      margin-right: 0;
+    margin-right: 0;
 }
  .homeIntroduction, .homePage {
    
-    padding-top: 4rem;
+    padding-top: 2rem;
     text-align: center;  
     background-color: yellow;
     
   }
   .homeIntroduction {
       height: 100vh;
-      padding-top: 15rem;
+      padding-top: 10rem;
       padding-left: 3rem;
       margin: 0;
       padding-right: 0;
@@ -47,10 +51,11 @@
       background-color:yellow;
   }
   .homeContact {
-    height: 90vh;
+    height: 80vh;
     padding-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 19rem;
+    margin-right: 10rem;
+    background-color: yellow;
   }
   .homeFooter {
       color: black;
@@ -79,40 +84,19 @@
     .homeIntroduction {
       
       padding-top: 7rem;
-      padding-left: 1rem;
-      
-      
+      padding-left: 1rem;    
   }
       
   }
 
-  /* .projectContact{
-    padding-top: 9rem;
-    text-align: center;
-  } */
-
-/* blog page styles */
-.blogPage {
-    background-color: #FFD523;
-    height: 90vh;
-}
-.blogFooter {
-    color: black;
-    background-color: green;
-    height: 4rem;
-    width: 100vw;
-    bottom: 0;
-    left: 0;
-}
-.blogHeader {
-    background-color: green;
-    color: black;
-    box-shadow: none;
-
-}
 .address {
-  padding-top: 10rem;
+  
+  margin: 2rem;
+  margin-top: 4rem;
   text-align: center;  
   background-color: yellow;
 }
+.sliderimg{
+  width: 85%;
 
+}

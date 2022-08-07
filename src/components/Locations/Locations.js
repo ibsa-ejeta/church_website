@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../sharedComponents/Header";
-import Introduction from "../homeComponents/Introduction";
 import Footer from "../sharedComponents/Footer";
 import { Grid, Typography, Container, Paper, Box, makeStyles } from "@material-ui/core";
 
@@ -21,7 +20,11 @@ const Locations = () => {
           <Grid item sm={12}>
             <Typography variant="h6">Address </Typography>
             <Typography variant="body1" component="">
-              OECT is located at 330 Bellamy Rd N, Scarborough, ON M1H 1E8. If you want to attend a baptist church in Scarborough, come and visit us!
+              OECT is located at: </Typography>
+              <Typography variant="body1" component="">330 Bellamy Road North</Typography>
+              <Typography variant="body1" component="">Scarborough, ON </Typography>
+              <Typography variant="body1" component="">M1H 1E8, Canada</Typography>
+              <Typography variant="body1" component="">If you want to attend an Evangelical church in Scarborough, come and visit us!
             </Typography>
           </Grid> 
         </Grid>

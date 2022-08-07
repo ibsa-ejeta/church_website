@@ -15,7 +15,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import HomeIcon from "@material-ui/icons/Home";
-import ContactMailIcon from "@material-ui/icons/ContactMail";
 import LocationCityIcon from '@material-ui/icons/LocationCity';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import EventIcon from '@material-ui/icons/Event';

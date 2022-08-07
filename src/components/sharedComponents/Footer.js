@@ -17,7 +17,7 @@ const Footer = (props) => {
 
   return (
     <Box className={`${props.className}`}>
-      <Typography variant="h6" align="center" gutterBottom>
+      <Typography variant="body2" align="center" gutterBottom>
         {copyRight}
       </Typography>
     </Box>
