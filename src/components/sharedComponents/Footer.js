@@ -5,7 +5,7 @@ const useStyles = makeStyles(() => ({
     bottom: 0,
     height: "4rem",
     left: 0,
-    width: "100%",
+    width: "100vw",
     backgroundColor: "aqua",
   },
 }));

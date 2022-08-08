@@ -3,13 +3,14 @@ import {
   Toolbar,
   Typography,
   makeStyles,
-  Button,
+  Container,
   Avatar,
   IconButton,
   Drawer,
   MenuItem,
   Box,
   Grid,
+  Button
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
@@ -26,8 +27,9 @@ const useStyles = makeStyles(() => ({
   headerLink: {
     fontFamily: "Open Sans, sans-serif",
     fontWeight: 300,
-    fontSize: "20px",
+    fontSize: "16px",
     marginLeft: "3rem",
+    marginTop: "0.6rem",
     textDecoration: "none",
     color: "black",
     "&:hover": {
@@ -37,11 +39,16 @@ const useStyles = makeStyles(() => ({
   },
   menuDownButton: {
     display: "block",
-    color: "#000",
+    color: "black",
     textDecoration: "none",
-    fontSize: "20px",
+    fontSize: "16px",
     marginBottom: "1.5rem",
+  },
+  drawerContainer: {
+    backgroundColor:"yellow",
+    width: "110%"
   }
+
 }));
 
 const Header = (props) => {
@@ -109,7 +116,7 @@ const Header = (props) => {
     return (
       <Toolbar className={`${props.classHeader}`}>
         <Grid container>
-          <Grid item container sm={2} justifyContent="center" component="div">
+          <Grid item container sm={2} justifyContent="left" component="div">
             <Avatar alt={imgAlt} src={imgSrc} />
             &nbsp;&nbsp;
             <Typography variant="h6" align="center">
@@ -119,9 +126,9 @@ const Header = (props) => {
           <Grid
             item
             container
-            justifyContent="center"
+            justifyContent="left"
             sm={10}
-            alignContent="center"
+            alignContent="left"
           >
             {getMenuButtons()}
           </Grid>
@@ -149,18 +156,25 @@ const Header = (props) => {
         >
           <MenuIcon />
         </IconButton>
-
+ 
         <Drawer
           {...{
             anchor: "left",
             open: drawerOpen,
-            onClose: handleDrawerClose,
+            onClose: handleDrawerClose
           }}
         >
-          <div className={drawerContainer}>{getDrawerChoices()}</div>
-        </Drawer>
+          <Container className={drawerContainer}>{getDrawerChoices()}</Container>
+        </Drawer> 
+        {/* <Drawer 
+          anchor="left"
+          open={drawerOpen}
+          onClose={handleDrawerClose}
+          >
+          <Container className={drawerContainer}>{getDrawerChoices()}</Container>
+        </Drawer> */}
 
-        <div>{headerLogo}</div>
+        <div className="headerlogo">{headerLogo}</div>
       </Toolbar>
     );
   };
@@ -168,33 +182,35 @@ const Header = (props) => {
   const getDrawerChoices = () => {
     return (
       <React.Fragment>
-        <Link to={path1} className={menuDownButton}>
+ 
+        <Button className={menuDownButton}><Link to={path1}>
           {first}
-        </Link>
-        <Link to={path2} className={menuDownButton}>
+        </Link></Button>
+        <Button className={menuDownButton}><Link to={path2}>
           {second}
-        </Link>
-        <Link to={path3} className={menuDownButton}>
+        </Link></Button>
+        <Button className={menuDownButton}><Link to={path3}>
           {third}
-        </Link>
-        <Link to={path4} className={menuDownButton}>
+        </Link></Button>
+        <Button className={menuDownButton}><Link to={path4}>
           {fourth}
-        </Link>
-        <Link to={path5} className={menuDownButton}>
+        </Link></Button>
+        <Button className={menuDownButton}><Link to={path5}>
           {fifth}
-        </Link>
-        <Link to={path6} className={menuDownButton}>
+        </Link></Button>
+        <Button className={menuDownButton}><Link to={path6}>
           {sixth}
-        </Link>
-        <Link to={path7} className={menuDownButton}>
+        </Link></Button>
+        <Button className={menuDownButton}><Link to={path7}>
           {seventh}
-        </Link>
+        </Link></Button>
+   
       </React.Fragment>
     );
   };
 
   const headerLogo = (
-    <Typography variant="h4" component="h4">
+    <Typography variant="h4" component="h4" className="headerlogo">
       {pageLogo}
     </Typography>
   );

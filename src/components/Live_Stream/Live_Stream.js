@@ -26,15 +26,12 @@ const Live_Stream = () => {
         <Grid item sm={12} md={9}>
           <iframe 
             src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2FOromoCCToronto%2Fvideos%2F366017864090488%2F&show_text=false&width=560&t=0" 
-            width="760" 
-            height="416" 
-            scrolling="no" 
-            frameborder="0" 
-            allowfullscreen="true" 
+            className="youtube_video"
+            frameborder="0"
+            allowfullscreen
             allow="autoplay; encrypted-media;" 
-            allowFullScreen
-            />
-          
+            title="facebook video"
+            /> 
         </Grid>
       </Grid>
     </Box>

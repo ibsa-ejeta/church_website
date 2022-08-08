@@ -21,7 +21,7 @@ const Events = () => {
           </Typography>
         </Grid>
         <Grid item sm={12} md={8}>
-          <img src="images/social_events.png" className="homeClipArt" />
+          <img src="images/social_events.png" className="events_image" />
         </Grid>
       </Grid>
     </Box>

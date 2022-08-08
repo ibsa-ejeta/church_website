@@ -3,13 +3,7 @@ import Header from "../sharedComponents/Header";
 import Footer from "../sharedComponents/Footer";
 import { Grid, Typography, Container, Paper, Box, makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles(() => ({
-  services: {
-    marginBottom: "3rem"
-
-  }
-  
-}));
+const useStyles = makeStyles(() => ({}));
 
 const Services = () => {
   const classes = useStyles();
@@ -21,7 +15,7 @@ const Services = () => {
       
       <Box id="Home" component="div" className="homeIntroduction">
       
-        <Grid item sm={12} className={classes.services}>
+        <Grid item sm={12} className="services_page">
           <Typography variant="h6">Worship Service </Typography>
           <Typography variant="body1" component="">
             Every Sunday from 3:00PM to 6:00PM
@@ -34,14 +28,13 @@ const Services = () => {
         <Grid item sm={12}>
         
         <iframe
-          width="720" 
-          height="400"
           src="https://www.youtube.com/embed/07idXBG5TU0"
           frameborder="0"
           allow="autoplay; encrypted-media"
           allowfullscreen
           title="video"
-        />{" "}
+          className="youtube_video"
+        />
     
         </Grid>
       

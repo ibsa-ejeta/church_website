@@ -15,7 +15,7 @@ const Locations = () => {
    
         <Grid container  className="address">
           <Grid item sm={12}>
-            <img src="images/church_address.png" className="homeClipArt" />
+            <img src="images/church_address.png" className="google_map" />
           </Grid>
           <Grid item sm={12}>
             <Typography variant="h6">Address </Typography>
