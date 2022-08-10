@@ -27,7 +27,7 @@ const useStyles = makeStyles(() => ({
   headerLink: {
     fontFamily: "Open Sans, sans-serif",
     fontWeight: 300,
-    fontSize: "16px",
+    fontSize: "15px",
     marginLeft: "3rem",
     marginTop: "0.6rem",
     textDecoration: "none",

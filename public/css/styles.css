@@ -1,162 +1,249 @@
 
 /* home page styles */
+html, body {
+    height: 100%;
+    background-color: yellow;
+}
 #root {
   background-color: yellow;
   width: 100%
 }
 
 .homePage {
-    /* background-color: red; */
-    
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 2rem;
+  text-align: center;  
+  background-color: yellow;
 }
- .homeIntroduction, .homePage {
-   
-    padding-top: 2rem;
-    text-align: center;  
-    background-color: yellow;
+.gallery {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 2rem;
+  text-align: center;  
+  background-color: yellow;
+}
+.ministries_page {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 2rem;
+  text-align: center;  
+  background-color: yellow;
+}
+.homeIntroduction {
+    text-align: center;
+    height: 100vh;
+    padding-top: 10rem;
+    padding-left: 3rem;
+    margin: 0;
+    padding-right: 0;
     
+}
+ 
+.homeHeader {
+  background-color: yellow;
+  color: black;
+  box-shadow: none;
+  
+  padding: 1.5rem 0rem;
+
+  
+
+  /* paddingRight: "79px",
+  paddingLeft: "118px",
+  paddingTop: "1rem",
+  paddingBottom: "1rem",
+  "@media (max-width: 1200px)": {
+    paddingLeft: 0,
+  }, */
+
+}
+.homeProjects {
+  padding-top: 4rem;
+}
+.projectCard {
+    background-color:yellow;
+}
+.homeContact {
+  height: 80vh;
+  padding-top: 5rem;
+  margin-left: 19rem;
+  margin-right: 10rem;
+  background-color: yellow;
+}
+.homeFooter {
+    color: black;
+    background-color: yellow;
+    height: 4rem;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+}
+.homeClipArt {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+.google_map {
+  margin-top: 5rem;
+  width: 50vw;
+}
+.address {
+
+  margin-top: 4rem;
+  text-align: center;  
+  background-color: yellow;
+}
+.events {
+  margin-top: 7rem;
+  text-align: center;  
+  background-color: yellow;
+}
+.intro_grid {
+  text-align: center;  
+  background-color: yellow;
+}
+.sliderimg {
+  margin-top: 7rem;
+  width: 75vw;
+
+}
+.services_page{
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  height: 80vh;
+
+}
+.youtube_video {
+  margin-top: 2rem;
+  width: 570px;
+  height:300px;
+  align-items: center;
+  align-self: center;
+}
+/* .youtube_video {
+  padding-top: 2rem;
+  width: 570px;
+  height:300px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 2rem;
+} */
+
+@media (max-width: 576px) {
+  #root {
+    background-color: yellow;
+    height: 100vh;
   }
-  .homeIntroduction {
-      height: 100vh;
-      padding-top: 10rem;
-      padding-left: 3rem;
-      margin: 0;
-      padding-right: 0;
-      
+  body {
+    font-size: small;
+    background-color: yellow;
   }
  
-  .homeHeader {
-    background-color: yellow;
-    color: black;
-    box-shadow: none;
-    
-    padding: 1.5rem 0rem;
+  .homePage {
+    padding: 0rem;
+    height: 30vh;
+  }
+  .gallery {
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+  .ministries_page {
+    margin-top: 7rem;
+  }
+  .homeIntroduction { 
+    margin: 1rem;
+    margin-top: 8rem;
+    padding: 0rem; 
+    text-align: center;
+    font-size: 1rem;
+    justify-items: center;
+    height: 70vh;
+  }
   
-    
-
-    /* paddingRight: "79px",
-    paddingLeft: "118px",
-    paddingTop: "1rem",
-    paddingBottom: "1rem",
-    "@media (max-width: 1200px)": {
-      paddingLeft: 0,
-    }, */
-
-  }
   .homeProjects {
-    padding-top: 4rem;
-  }
-  .projectCard {
-      background-color:yellow;
-  }
-  .homeContact {
-    height: 80vh;
-    padding-top: 5rem;
-    margin-left: 19rem;
-    margin-right: 10rem;
-    background-color: yellow;
-  }
-  .homeFooter {
-      color: black;
-      background-color: yellow;
-      height: 4rem;
-      /* width: 100vw; */
-      bottom: 0;
-      left: 0;
-  }
-  .homeClipArt {
-    
-    margin: 0;
-    padding: 0;
-   
-  }
-  .google_map {
-    margin-top: 5rem;
-    width: 50vw;
-  }
-  .address {
-
-    margin-top: 4rem;
-    text-align: center;  
-    background-color: yellow;
+    padding-top: 1rem;
   }
   .sliderimg{
-    width: 85%;
+    margin-top: 9rem;
+    width: 85vw;
+    height: 50vh;
+    align-items: center;
   
   }
-  .services_page{
-    margin-bottom: 3rem;
-
+  .services_page {
+    font-size: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    height: 10vh;
   }
+  
   .youtube_video {
-    width: 570px;
-    height:300px;
-    align-items: center;
-    align-self: center;
-  }
-  @media (max-width: 576px) {
-    #root {
-      background-color: yellow;
-      height: 100vh;
-    }
-    body {
-      font-size: small;
-    }
-    .homeClipArt {
-      padding-top: 1rem;
-      width: 80vw;
-      margin-bottom: 3rem;
-      align-items: center;
-    }
-    .homeIntroduction {
-      
-      padding-top: 7rem;
-      padding-left: 1rem;    
-    }
-    .sliderimg{
-      margin-top: 7rem;
-      width: 85vw;
-      height: 50vh;
-      align-items: center;
+    padding-top: 4rem;
+    width: 320px;
+    height:250px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
     
-    }
-    .services_page{
-      margin-bottom: 0.5rem;
-      font-size: 1rem;
-
-    }
-    .youtube_video {
-      margin-top: 2rem;
-      width: 320px;
-      height:180px;
-      display: grid;
-     justify-content: center;
-      
-    }
-    .address {
-      align-items: center;
-      display: grid;
-      justify-content: center;
-    }
-    .google_map {
-      width: 80vw;
-      height: 40vw;
-      justify-items: center;
-    }
-    .headerlogo {
-      font-size: 10px;
-    }
-    .events_image {
-      margin-top: 4rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 80vw;
-      height: 40vh;
-     
-    }
   }
+  .address {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .events {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: 9rem;
+    
+  }
+  .intro_grid {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+  }
+  .homeClipArt {
+    padding-top: 3rem;
+    width: 80vw;
+    margin: 0rem;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .google_map {
+    width: 80vw;
+    height: 40vw;
+    justify-items: center;
+  }
+  .headerlogo {
+    font-size: 0.5rem;
+    height: auto;
+
+  }
+  .events_image {
+    margin-top: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 40vh;
+    justify-items: center;
+    
+  }
+}
 
 

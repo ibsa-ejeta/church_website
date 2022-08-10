@@ -2,16 +2,65 @@
     {
       "key": 1,
       "images": "/images/choir.jpg",
-      "alts": "choir",
-      "titles": "CHOIR",
-      "projectDescription": "The Choir Ministry has been faithfully serving OECT for the past decade! If you are a choir member, and would like to access the resources, you must first sign up and register for a OECT membership. You can begin registration here! Once approved, you will have access to the Choir Material! This is to ensure that privacy, security, and integrity is maintained for all our internal resources. Thank you! If you are already a OECT Church member, and would like to access the choir material, click here."
+      "alts": "Deacons Ministry",
+      "titles": "Deacons Ministry",
+      "projectDescription": "Deacons shall play the roles of Diakonia (Greek word) mainly refers to and involves 'Ministry of the word' (Acts 6:4); 'Serving Food' (Acts 6: 1); 'Relief or Support' (Acts 11: 29); 'Spiritual gift-the gift of serving' (Romans 12: 6-7). Based on these scriptural foundations, this ministry is intended to serve the needy people in our Church and society in their spiritual, physical, and emotional needs."
     },
     {
       "key": 2,
       "images": "/images/faith_statement.jpeg",
-      "alts": "youth",
-      "titles": "YOUTH",
-      "projectDescription": "Amplified For Christ is our youth program at OECT that longs to share the Gospel, encourage students to live out their faith, share their faith and be apart of the larger church community."
+      "alts": "Evangelism and Discipleship",
+      "titles": "Evangelism and Discipleship",
+      "projectDescription": "The major goal of OECT is to fulfill the great commission of the Lord Jesus Christ as stipulated in (Matthew 28: 18-20) that is making the Church to reaching out to people in the world with the gospel of the Kingdom of God and making them disciples as Jesus Christ commissioned the Church: '... and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth' (Acts 1: 18). Based on this biblical truth, OECT's mission is to proclaim the holistic saving gospel of our Lord Jesus Christ to all people and disciple them to minister in the Kingdom of God and strengthen their relationship with Jesus Christ."
+    },
+    {
+      "key": 3,
+      "images": "/images/choir.jpg",
+      "alts": "Women's Ministry",
+      "titles": "Women's Ministry",
+      "projectDescription": "OECT believes that the call into God's ministry is both for men and women. The purpose of this ministry is to nurture Christian women to grow in their faith and actively participate in the church ministries. The Women's Ministry is a vital part of OECT and contributes greatly to the fulfillment of OECT's mission."
+    },
+    {
+      "key": 4,
+      "images": "/images/faith_statement.jpeg",
+      "alts": "Children and Youth Ministry",
+      "titles": "Children and Youth Ministry",
+      "projectDescription": "OECT believes that children and young people have great needs, physically, emotionally, socially, and spiritually. The Bible says, 'Train a child in the way he should go, and when he is old, he will not turn from it' (Proverbs 22:6). Furthermore, the Bible commands that 'The commandment I give you today...You shall teach them diligently to your children...' (Deut. 6:7). Therefore, OECT shall strive to provide a range of opportunities for children and young people to come to a safe yet exciting environment, where they can learn the word of God and experience Christian fellowship. As for the young people, this ministry helps to nurture and disciple them for active participation in the mission work in the church and beyond. OECT works on Children and youth ministry to accomplish the objective of supporting them grow in their spiritual life with the intention to capacitate them in the ministry of the OECT and proclamation of the gospel."
+    },
+    {
+      "key": 5,
+      "images": "/images/choir.jpg",
+      "alts": "Choir and Worship Team",
+      "titles": "Choir and Worship Team",
+      "projectDescription": "Sing to the LORD, all the earth; proclaim his salvation day after day. Declare his glory among the nations, his marvelous deeds among all peoples (1 Chronicles 16: 23-24). This ministry shall provide an active and meaningful worship service that pleases God. To realize this ministry, the OECT choir, worship team, solo singers, and instrumentalists, who lead the congregation in praise and worship services shall play a vital role."
+    },
+    {
+      "key": 6,
+      "images": "/images/faith_statement.jpeg",
+      "alts": "Prayer Meetings",
+      "titles": "Prayer Meetings",
+      "projectDescription": "OECT believes that prayer is the foundation and means to connect with God. Prayer is a tool through which we find where true life comes from i.e., Jesus Christ, and connect with Him. Hence, as a community of believers, we must remember the prayer Jesus prayed for his church: 'Now this is eternal life: that they know you, the only true God, and Jesus Christ, whom you have sent.' John 17:3. Prayer is taking the whole armor of God and is a fundamental weapon for defeating our enemies (Eph. 6: 12-13) and bringing an extraordinary change in the life of people. Based on these biblical foundations, the prayer group of OECT organizes and leads the prayer services of the congregation; organizes prayer topics, and brings forward to the members to pray on. The prayer group of OECT shall organize and conduct congregational prayer meetings every Sunday, and additional prayer days during the week for members of the congregation and other fellow Christians."
+    },
+    {
+      "key": 7,
+      "images": "/images/choir.jpg",
+      "alts": "Bible Study Group",
+      "titles": "Bible Study Group",
+      "projectDescription": "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so (2 Tim. 17: 11). All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be competent, equipped for every good work. (2 Tim. 3: 16-17). Bible study encourages and guides us on our walk of faith, learn about the attributes of God, learn God's commandments, find the meaning of life, and discover the truths. Hence, with this sub-ministry, OECT aims to help members to mature in the knowledge of the Word of God."
+    },
+    {
+      "key": 8,
+      "images": "/images/faith_statement.jpeg",
+      "alts": "Marriage and Family Ministry",
+      "titles": "Marriage and Family Ministry",
+      "projectDescription": "Family is the institution from where a society emanates. Family is created and installed as an institution by God with His blessings, guidance, and supervision (Genesis 1: 26 - 31; 2: 18-25). Christ has taught in-depth on the family and union of a man and a woman in marriage as one flesh (Matthew 19: 1 - 12). Accordingly, OECT believes in one-man and one-woman marriage. OECT encourages its members to unite in Christian marriage and provides pre-and post-marriage care and counseling services. Hence, the OECT's family ministry has the following objectives: a) To build up the family in the profound true teaching of the Bible and basic Christian teachings and encourage family fellowship and prayer b) To enhance love, harmony, unity, integrity, co-operation, etc. in the family c) To assist the family to carry one another's burden in life with the intention to accomplish the command of the Lord d) To provide an ongoing teaching, care, counseling, and advice in relation to faith and family responsibility"
+    },
+    {
+      "key": 9,
+      "images": "/images/choir.jpg",
+      "alts": "Outreach Ministry",
+      "titles": "Outreach Ministry",
+      "projectDescription": "For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do (Ephesians 2:10). OECT is envisioned to actively reach out to those who are in physical and spiritual need in ways that demonstrate God's loving-kindness, and in so doing, create opportunities to share the Good News of Jesus Christ. As a community of believers, we are committed to partnering with each other on outreach ministry, locally and globally, and through this commitment, we all use our own unique God-given abilities to change lives by shining the light that is within us - that is Jesus Christ. OECT commits to take part in outreach ministry to expand God's kingdom and to serve God in a different cultural setting and supporting Congregations that are involved in outreach ministries."
     }
   ]
   

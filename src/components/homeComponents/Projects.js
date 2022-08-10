@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "3rem",
     marginTop: "3rem",
     marginBottom: "5rem",
+    marginRight:"1rem",
     backgroundColor: "yellow",
   },
 
@@ -81,7 +82,7 @@ const Projects = (props) => {
   const textGrid = (
     <Grid item xs={12} md={7}>
       <Card className={classes.projectCard}>
-        <Typography component="h4" variant="h4" gutterBottom>
+        <Typography component="h5" variant="h5" gutterBottom>
           {titles}
         </Typography>
         <Typography variant="body2" color="textSecondary" paragraph>
@@ -95,9 +96,8 @@ const Projects = (props) => {
       item
       xs={12}
       md={5}
-      alignContent="center"
-      justify="center"
       spacing={2}
+      className={classes.img_grid}
     >
       <CardMedia className={classes.img} image={images} title={titles} />
     </Grid>

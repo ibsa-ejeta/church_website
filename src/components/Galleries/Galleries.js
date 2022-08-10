@@ -14,7 +14,7 @@ const Galleries = () => {
       <Header
         classHeader="homeHeader"
       />
-        <Container className="homePage">
+        <Container className="gallery">
           <AliceCarousel 
           autoPlay 
           autoPlayInterval="3000"

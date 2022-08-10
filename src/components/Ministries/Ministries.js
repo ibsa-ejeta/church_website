@@ -13,7 +13,7 @@ const Ministries = () => {
       <Header
         classHeader="homeHeader"
       />
-       <Box component="div" className="homePage">
+       <Box component="div" className="ministries_page">
         <Container>
           {details.map((detail) => (
             <Projects

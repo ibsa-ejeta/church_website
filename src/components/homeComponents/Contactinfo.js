@@ -9,6 +9,7 @@ import {
   makeStyles,
 } from "@material-ui/core";
 import FacebookIcon from '@material-ui/icons/Facebook';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 const useStyles = makeStyles(() => ({
@@ -28,8 +29,17 @@ const useStyles = makeStyles(() => ({
   },
   projectCard: {
     margin: "3rem",
+    paddingBottom: "5rem",
     textAlign: "center",
     alignItems: "center",
+    borderStyle: "none",
+    backgroundColor: "yellow",
+    boxShadow: "none",
+  },
+  social_media: {
+    textAlign: "center",
+    margin: "auto",
+    paddingTop: "1rem",
     borderStyle: "none",
     backgroundColor: "yellow",
     boxShadow: "none",
@@ -57,6 +67,7 @@ const Contactinfo = () => {
               <Typography>
                   If you have any questions, concerns, comments, prayer requests, struggles, general inquiries, or anything in general, please do not hesitate to contact us! This is open to all, and we encourage you to do so. We respect your privacy, and will provide responses as best as we can.
               </Typography>
+              <Card className={classes.social_media}>
               <a
                 href="https://www.facebook.com/OromoCCToronto"
                 target="_blank"
@@ -64,6 +75,15 @@ const Contactinfo = () => {
               >
                 <Typography variant="h6">
                   <FacebookIcon fontSize="" /> Facebook
+                </Typography>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCu14_sVsELcJfIE2FES17VA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Typography variant="h6">
+                  <YouTubeIcon fontSize="" /> YouTube
                 </Typography>
               </a>
               <a href="mailto:tocct2012@gmail.com" target="_blank" rel="noreferrer">
@@ -76,6 +96,7 @@ const Contactinfo = () => {
                   <PhoneIphoneIcon fontSize="" /> Give us a call
                 </Typography>
               </a>
+              </Card>
             </Card>
         
       </Container>
