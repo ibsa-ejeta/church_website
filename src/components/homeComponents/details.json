@@ -1,52 +1,53 @@
 [
   {
     "key": 1,
-    "images": "/images/church_clipart_1.png",
+    "images": "/images/whoweare.jpg",
     "alts": "who we are",
-    "titles": "Who we are",
-    "projectDescription": "Oromo Evangelical Church of Toronto (OECT) formerly known as 'The Oromo Christian Church of Toronto' was initiated in the early 1990s as a fellowship by Oromo immigrants to Canada residing in the Greater Toronto Area (GTA) and surrounding cities who committed themselves to worship God in their mother-tongue (Afaan Oromoo) to bring a holistic impact in the lives of their communities living in Oromia and abroad. A few years later, the fellowship grew, and this group of Christians came together and agreed to adopt a constitution and transform the fellowship into a more formal establishment."
+    "titles": "About Us",
+    "projectDescription": "Oromo Evangelical Church of Toronto (OECT) formerly known as 'The Oromo Christian Church of Toronto' was initiated in the early 1990s as a fellowship by Oromo immigrants to Canada residing in the Greater Toronto Area (GTA) and surrounding cities who committed themselves to worship God in their mother-tongue (Afaan Oromoo) to bring a holistic impact in the lives of their communities living in Oromia and abroad. newline A few years later, the fellowship grew, and this group of Christians came together and agreed to adopt a constitution and transform the fellowship into a more formal establishment."
   },
   {
     "key": 2,
-    "images": "/images/faith_statement.jpeg",
+    "images": "/images/vision.jpg",
     "alts": "church vision",
     "titles": "Vision",
     "projectDescription": "Oromo Evangelical Church of Toronto is envisioned to create a vibrant and growing community of faith that shares the blessings of the Christian life with a tender and generous heart."
   },
   {
     "key": 3,
-    "images": "/images/faith_statement.jpeg",
+    "images": "/images/mission.jpg",
     "alts": "church Mission",
     "titles": "Mission",
-    "projectDescription": "OECT aspires to be a welcoming tabernacle that supports members to grow in their spiritual life and show a strong commitment to spreading the living word of God to communities in the GTA area and across the boundaries. We wish to be a congregation that fulfills a ministry of hospitality, welcoming, and nurturing to all those who are in need. We hope to be a caring, spiritually vigorous church where members' faith and life intersect."
+    "projectDescription": "OECT aspires to be a welcoming tabernacle that supports members to grow in their spiritual life and show a strong commitment to spreading the living word of God to communities in the GTA area and across the boundaries. newline We wish to be a congregation that fulfills a ministry of hospitality, welcoming, and nurturing to all those who are in need. We hope to be a caring, spiritually vigorous church where members' faith and life intersect."
   },
   {
     "key": 4,
-    "images": "/images/faith_statement.jpeg",
+    "images": "/images/values.jpg",
     "alts": "Core Values",
     "titles": "Core Values",
-    "projectDescription": "OECT core values are embedded in:\n\n Faith: We believe that God makes the impossible possible beyond what we can see. \n\nLove: We believe in unconditional love for one another as Christ loves us. \n\nUnity: We endeavor to build a genuine relationship with all and stand together as one body. \n\nMercy: We forgive as Jesus has forgiven us. \n\nGrowth: We continuously grow in our faith and unity with God. \n\nIntegrity: We are a growing body of Christ as proclaimed in the scripture. \n\nServanthood: We strive to live our ambitions and attitudes with our actions. \n\nGenerosity: We unreservedly give to build the house of the lord. \n\nPartnership: We partner with and support sister churches who share our vision of making people disciples of Jesus Christ. \n\nTransparency: All members have equal rights and access to know the status of the resources and services held in the church. \n\nOutreach: We reach out to all nations with the good news (gospel)."
+    "projectDescription": "OECT core values are embedded in: Faith: We believe that God makes the impossible possible beyond what we can see. newline Love: We believe in unconditional love for one another as Christ loves us. newline Unity: We endeavor to build a genuine relationship with all and stand together as one body. newline Mercy: We forgive as Jesus has forgiven us. newline Growth: We continuously grow in our faith and unity with God. newline Integrity: We are a growing body of Christ as proclaimed in the scripture. newline Servanthood: We strive to live our ambitions and attitudes with our actions. newline Generosity: We unreservedly give to build the house of the lord. newline Partnership: We partner with and support sister churches who share our vision of making people disciples of Jesus Christ. newline Transparency: All members have equal rights and access to know the status of the resources and services held in the church. newline Outreach: We reach out to all nations with the good news (gospel)."
   },
   {
     "key": 5,
-    "images": "/images/faith_statement.jpeg",
+    "images": "/images/goal.jpg",
     "alts": "Purpose/Goal",
     "titles": "Purpose/Goal",
-    "projectDescription": "1. To proclaim the Holy word of God to the lost, teach/guide/support them to repent and believe in Lord Jesus Christ and become his disciples. (John 1:29), (Acts 2:38), (Matthew 28:19-20); promulgate the Gospel of the Lord Jesus Christ by all scriptural means (Colossians 1:28).  2. To build and maintain a place of worship (House for God), and care for the Church of God (1 Corinthians 3:16-17, 1 Kings 8:17-18, Acts 20:28). 3. To assemble and reinforce bonds of Christian fellowship and worship God in spirit and truth, and learn from the living word of God, the Bible (John 4:24, Romans 12:10). 4. To grow together and become mature Christians (1 Samuel 2:26, 2 Peter 3:18). 5. To set and solidify the rules of Christian conduct based on biblical truth (Titus 2)."
+    "projectDescription": "1. To proclaim the Holy word of God to the lost, teach/guide/support them to repent and believe in Lord Jesus Christ and become his disciples. (John 1:29), (Acts 2:38), (Matthew 28:19-20); promulgate the Gospel of the Lord Jesus Christ by all scriptural means (Colossians 1:28).newline 2. To build and maintain a place of worship (House for God), and care for the Church of God (1 Corinthians 3:16-17, 1 Kings 8:17-18, Acts 20:28).newline \n3. To assemble and reinforce bonds of Christian fellowship and worship God in spirit and truth, and learn from the living word of God, the Bible (John 4:24, Romans 12:10).newline 4. To grow together and become mature Christians (1 Samuel 2:26, 2 Peter 3:18).newline 5. To set and solidify the rules of Christian conduct based on biblical truth (Titus 2)."
   } 
   ,
   {
     "key": 6,
-    "images": "/images/faith_statement.jpeg",
+    "images": "/images/doctrine.jpg",
     "alts": "Doctrine",
     "titles": "Doctrine",
-    "projectDescription": "OECT is a multi-denominational Church where any born-again Christians from different Evangelical Churches can be a member and entitled to services rendered by the Church. Our Church doctrine mainly focuses on the teaching of the Word of God (based on the 66 books), Baptism, sharing of Lord's Supper, and other Church practices stipulated in its Constitutions and Bylaws."
+    "projectDescription": "OECT is a multi-denominational Church where any born-again Christians from different Evangelical Churches can be a member and entitled to services rendered by the Church. newline Our Church doctrine mainly focuses on the teaching of the Word of God (based on the 66 books), Baptism, sharing of Lord's Supper, and other Church practices stipulated in its Constitutions and Bylaws."
   },
   {
     "key": 7,
-    "images": "/images/church_clipart_1.png",
+    "images": "/images/confession.jpg",
     "alts": "Confession",
     "titles": "Confession",
-    "projectDescription": "OECT believes that confession is part of the sanctification process and aids Christians in dealing with sin and healing from it (1 John 1:9; James 5: 16; Romans 10:9-10). Christians confess their sins to God to practice humility before him and to fess up to the bad things they have done. It takes a humble person to admit their mistakes! Humility is a vital part of confession and aids the restoration of Christians who have quenched the Spirit of God (1 Peter 5:6; James 4:6; 2 Corinthians 7:9-10; Psalm 32:1-5; Proverbs 28:13). OECT confesses; The Triune God - Father, Son, and Holy Spirit. Jesus Christ as Lord and Savior and the Gospel as the power of God for the salvation of all who believe. OECT confesses; Jesus Christ is the Word of God incarnate, through whom everything was made and through whose life, death, and resurrection God fashions a new creation. OECT confesses; The canonical Scriptures of the Old and New Testaments as the inspired Word of God and the authoritative source and norm of its proclamation, faith, and life, according to which our doctrines should be judged."
+    "projectDescription": "OECT believes that confession is part of the sanctification process and aids Christians in dealing with sin and healing from it (1 John 1:9; James 5: 16; Romans 10:9-10). Christians confess their sins to God to practice humility before him and to fess up to the bad things they have done. newline It takes a humble person to admit their mistakes! Humility is a vital part of confession and aids the restoration of Christians who have quenched the Spirit of God (1 Peter 5:6; James 4:6; 2 Corinthians 7:9-10; Psalm 32:1-5; Proverbs 28:13). OECT confesses; The Triune God - Father, Son, and Holy Spirit. newline Jesus Christ as Lord and Savior and the Gospel as the power of God for the salvation of all who believe. OECT confesses; Jesus Christ is the Word of God incarnate, through whom everything was made and through whose life, death, and resurrection God fashions a new creation. OECT confesses; The canonical Scriptures of the Old and New Testaments as the inspired Word of God and the authoritative source and norm of its proclamation, faith, and life, according to which our doctrines should be judged."
   }
+
 ]

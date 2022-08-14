@@ -27,8 +27,8 @@ const useStyles = makeStyles(() => ({
     textAlign: "center",
     alignItems: "center"
   },
-  projectCard: {
-    margin: "3rem",
+  contactCard: {
+    margin: "1rem",
     paddingBottom: "5rem",
     textAlign: "center",
     alignItems: "center",
@@ -62,7 +62,7 @@ const Contactinfo = () => {
             direction="row"
             md={8}
             spacing={3}
-            className={classes.projectCard}>
+            className={classes.contactCard}>
               <Typography variant="h5">Contact Us</Typography>
               <Typography>
                   If you have any questions, concerns, comments, prayer requests, struggles, general inquiries, or anything in general, please do not hesitate to contact us! This is open to all, and we encourage you to do so. We respect your privacy, and will provide responses as best as we can.

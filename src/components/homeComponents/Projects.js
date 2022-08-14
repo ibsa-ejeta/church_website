@@ -11,14 +11,20 @@ import {
   Paper,
   Box,
   Container,
+  ListItem
 } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   homePaper: {
-    paddingTop: "3rem",
+    paddingTop: "2rem",
     marginTop: "3rem",
     marginBottom: "5rem",
-    marginRight:"1rem",
+    backgroundColor: "yellow",
+  },
+  homePaper_mobile: {
+    paddingTop: "1rem",
+    marginTop: "2rem",
+    marginBottom: "1rem",
     backgroundColor: "yellow",
   },
 
@@ -33,6 +39,14 @@ const useStyles = makeStyles((theme) => ({
   },
   projectCard: {
     margin: "3rem",
+    textAlign: "center",
+    alignItems: "center",
+    borderStyle: "none",
+    backgroundColor: "yellow",
+    boxShadow: "none",
+  },
+  projectCard_small: {
+    margin: "1rem",
     textAlign: "center",
     alignItems: "center",
     borderStyle: "none",
@@ -67,6 +81,19 @@ const Projects = (props) => {
     getWindowDimensions()
   );
   const { titles, projectDescription, images, sites, urls, alts, keys } = props;
+  let items = [];
+  let new_item = []
+  let txt = true
+  if (projectDescription.includes("newline")) {
+    new_item =projectDescription.split("newline");
+    txt = false
+  } 
+  let one = <Typography>{projectDescription}</Typography>
+  let two = []
+  for (let i = 0; i < new_item.length; i++) {
+    two.push(<Typography>{new_item[i]}</Typography>)
+       }
+      
   const classes = useStyles();
   const theme = useTheme();
 
@@ -85,9 +112,17 @@ const Projects = (props) => {
         <Typography component="h5" variant="h5" gutterBottom>
           {titles}
         </Typography>
-        <Typography variant="body2" color="textSecondary" paragraph>
-          {projectDescription}
+        {txt ? one: two}       
+      </Card>
+    </Grid>
+  );
+  const textGrid_small = (
+    <Grid item xs={12} md={7}>
+      <Card className={classes.projectCard_small}>
+        <Typography component="h5" variant="h5" gutterBottom>
+          {titles}
         </Typography>
+        {txt ? one: two}       
       </Card>
     </Grid>
   );
@@ -125,7 +160,7 @@ const Projects = (props) => {
 
   return (
     <Box component="div" className="homeProjects">
-      <Paper justify="center" className={classes.homePaper} elevation={6}>
+      <Paper justify="center" className={classes.homePaper_mobile} elevation={6}>
         <Grid
           component="div"
           raised
@@ -136,7 +171,7 @@ const Projects = (props) => {
           md={12}
           spacing={3}
         >
-          {textGrid} {imageGrid}
+          {textGrid_small} {imageGrid}
         </Grid>
       </Paper>
     </Box>

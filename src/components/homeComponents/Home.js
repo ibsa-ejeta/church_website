@@ -5,12 +5,22 @@ import Projects from "./Projects";
 import Contactinfo from "./Contactinfo";
 import Footer from "../sharedComponents/Footer";
 import { Grid, Container, Paper, Box, makeStyles } from "@material-ui/core";
-
 const details = require("./details.json");
 const useStyles = makeStyles(() => ({}));
 
 const Home = () => {
+  // let details_obj = JSON.parse(details);
   const classes = useStyles();
+  
+  // for (let i = 0; i < details.length; i++) {
+  //    let item = details[i].projectDescription;
+  //    if (item.includes("newline")) {
+  //       console.log("yes");
+  //       item = item.replaceAll('newline', '\n');
+  //       console.log(item)
+  //    }
+        
+  //   }
   return (
     <React.Fragment>
       <Header
@@ -20,14 +30,14 @@ const Home = () => {
         <Introduction />
         <Container id="projects">
           {details.map((detail) => (
-            <Projects
+          <Projects
               keys={detail.key}
-              titles={detail.titles}
+              titles={detail.titles}  
               projectDescription={detail.projectDescription}
               images={detail.images}
               alts={detail.alts}
-            ></Projects>
-          ))}
+            ></Projects>)
+          )}
         </Container>
         <Contactinfo />
       </Box>

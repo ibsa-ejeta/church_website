@@ -13,7 +13,7 @@ const Live_Stream = () => {
       <Header
         classHeader="homeHeader"
       />
-      <Box id="Home" component="div" className="homeIntroduction">
+      <Box id="Home" component="div" className="live_stream">
       <Grid 
         component="div"
         raised
@@ -22,15 +22,21 @@ const Live_Stream = () => {
         alignContent="center"
         direction="column"
         xl={12}>
-        <Grid item sm={12} md={3}>
-          <Typography variant="h4">Oromo Evangelical Church of Toronto</Typography>
-          <Typography variant="body1" component="">
-            Our Live Stream begins at 10:30 am every Sunday.
-            If the video does not play please refresh your page.
-            We look forward to having you join us!
-          </Typography>
+        <Grid 
+          item 
+          alignItems="center"
+          alignContent="center">
+            <Typography variant="h5" className="live_stream_title">Oromo Evangelical Church of Toronto</Typography>
+            <Typography variant="body1"  className="live_stream_title">
+              Our Live Stream begins at 10:30 am every Sunday.
+              
+            </Typography>
+            <Typography variant="body1"  className="live_stream_title">
+              If the video does not play please refresh your page.
+              We look forward to having you join us!
+            </Typography>
         </Grid>
-        <Grid item>
+        {/* <Grid item>
           <iframe 
             src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2FOromoCCToronto%2Fvideos%2F366017864090488%2F&show_text=false&width=560&t=0" 
             className="youtube_video"
@@ -39,7 +45,7 @@ const Live_Stream = () => {
             allow="autoplay; encrypted-media;" 
             title="facebook video"
             /> 
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
       <Footer className={"homeFooter"} />

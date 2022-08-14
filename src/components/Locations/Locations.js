@@ -18,6 +18,7 @@ const Locations = () => {
             <img src="images/church_address.png" className="google_map" />
           </Grid>
           <Grid item sm={12}>
+            <br/>
             <Typography variant="h6">Address </Typography>
             <Typography variant="body1" component="">
               OECT is located at: </Typography>

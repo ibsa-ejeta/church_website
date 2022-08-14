@@ -22,6 +22,7 @@ import EventIcon from '@material-ui/icons/Event';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import AddAlertIcon from '@material-ui/icons/AddAlert';
+import { Classnames } from "react-alice-carousel";
 
 const useStyles = makeStyles(() => ({
   headerLink: {
@@ -41,25 +42,36 @@ const useStyles = makeStyles(() => ({
     display: "block",
     color: "black",
     textDecoration: "none",
-    fontSize: "16px",
+    fontSize: "20px",
     marginBottom: "1.5rem",
   },
   drawerContainer: {
+    opacity:"1",
+    width: "80vw",
+    margin: "0rem",
+    height: "100vh",
     backgroundColor:"yellow",
-    width: "110%"
-  }
+    alignContent: "center",
+    opacity:"1",
+    display: "grid",
 
+  },
+  drawerMain: {
+    backgroundColor:"transparent",
+    opacity:"1",
+  }
+ 
 }));
 
 const Header = (props) => {
   const {
     homeHeader,
     header,
-    logo,
     headerLink,
     menuDownButton,
     toolbar,
     drawerContainer,
+    drawerMain
   } = useStyles();
   const {
     classHeader="homeHeader",
@@ -69,21 +81,21 @@ const Header = (props) => {
     third="Locations",
     fourth= "Ministries",
     fifth= "Events",
-    sixth="Live Stream",
+    // sixth="Live Stream",
     seventh= "Gallery",
     icon1=<HomeIcon fontSize="small" />,
     icon2=<AddAlertIcon fontSize="small" />,
     icon4=<MenuBookIcon fontSize="small" />,
     icon3=<LocationCityIcon fontSize="small" />,
     icon5=<EventIcon fontSize="small" />,
-    icon6=<LiveTvIcon fontSize="small" />,
+    // icon6=<LiveTvIcon fontSize="small" />,
     icon7=<PhotoCameraIcon fontSize="small" />,
     path1="/",
     path2="/Services",
     path3="/Locations",
     path4="/Ministries",
     path5="/Events",
-    path6="/Live_Stream",
+    // path6="/Live_Stream",
     path7="/Galleries",
     imgAlt="Cross",
     imgSrc="/images/Oromo Evangelical Church of Toronto Logo.png"
@@ -154,25 +166,27 @@ const Header = (props) => {
             onClick: handleDrawerOpen,
           }}
         >
-          <MenuIcon />
+          <MenuIcon/>
         </IconButton>
  
-        <Drawer
+        {/* <Drawer
           {...{
             anchor: "left",
             open: drawerOpen,
             onClose: handleDrawerClose
+          
           }}
-        >
-          <Container className={drawerContainer}>{getDrawerChoices()}</Container>
-        </Drawer> 
-        {/* <Drawer 
+        > */}
+          {/* <Container className={drawerContainer}>{getDrawerChoices()}</Container>
+        </Drawer>  */}
+        <Drawer 
           anchor="left"
           open={drawerOpen}
           onClose={handleDrawerClose}
+          className={drawerMain}
           >
           <Container className={drawerContainer}>{getDrawerChoices()}</Container>
-        </Drawer> */}
+        </Drawer>
 
         <div className="headerlogo">{headerLogo}</div>
       </Toolbar>
@@ -198,9 +212,9 @@ const Header = (props) => {
         <Button className={menuDownButton}><Link to={path5}>
           {fifth}
         </Link></Button>
-        <Button className={menuDownButton}><Link to={path6}>
+        {/* <Button className={menuDownButton}><Link to={path6}>
           {sixth}
-        </Link></Button>
+        </Link></Button> */}
         <Button className={menuDownButton}><Link to={path7}>
           {seventh}
         </Link></Button>
@@ -210,7 +224,7 @@ const Header = (props) => {
   };
 
   const headerLogo = (
-    <Typography variant="h4" component="h4" className="headerlogo">
+    <Typography variant="h6" component="h6" className="headerlogo">
       {pageLogo}
     </Typography>
   );
@@ -238,10 +252,10 @@ const Header = (props) => {
           {icon5}&nbsp;&nbsp;
           {fifth}
         </Link>
-        <Link to={path6} className={headerLink}>
+        {/* <Link to={path6} className={headerLink}>
           {icon6}&nbsp;&nbsp;
           {sixth}
-        </Link>
+        </Link> */}
         <Link to={path7} className={headerLink}>
           {icon7}&nbsp;&nbsp;
           {seventh}
