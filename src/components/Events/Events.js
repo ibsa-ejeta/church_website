@@ -15,13 +15,14 @@ const Events = () => {
      <Box component="div" className="events">
       <Grid>
         <Grid item sm={12}>
-          <Typography variant="h5">Oromo Evangelical Church of Toronto </Typography>
-          <Typography variant="body2" component="">
+          <Typography variant="h5">Upcoming Events </Typography>
+          <br/>
+          {/* <Typography variant="body2" component="">
             Welcome to the Oromo Evangelical Church of Toronto website. We encourage you to browse this website and find out who we are, our vision, our faith, services we offer at our church and ministerial offices available to all members of our congregation. Moreover, we encourage you to benefit from our online Oromo gospel songs and other Christian resources.
-          </Typography>
+          </Typography> */}
         </Grid>
         <Grid item sm={12}>
-          <img src="images/social_events.png" className="events_image" />
+          <img src="images/recent_event.jpg" className="events_image" />
         </Grid>
       </Grid>
     </Box>

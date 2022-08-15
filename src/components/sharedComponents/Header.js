@@ -78,7 +78,7 @@ const Header = (props) => {
     pageLogo=" OECT",
     first="Home",
     second="Services",
-    third="Locations",
+    third="Location",
     fourth= "Ministries",
     fifth= "Events",
     // sixth="Live Stream",
