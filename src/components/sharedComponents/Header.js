@@ -7,7 +7,6 @@ import {
   Avatar,
   IconButton,
   Drawer,
-  MenuItem,
   Box,
   Grid,
   Button
@@ -15,21 +14,20 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import HomeIcon from "@material-ui/icons/Home";
 import LocationCityIcon from '@material-ui/icons/LocationCity';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import EventIcon from '@material-ui/icons/Event';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import AddAlertIcon from '@material-ui/icons/AddAlert';
-import { Classnames } from "react-alice-carousel";
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 
 const useStyles = makeStyles(() => ({
   headerLink: {
     fontFamily: "Open Sans, sans-serif",
     fontWeight: 300,
     fontSize: "15px",
-    marginLeft: "3rem",
+    marginRight: "3rem",
     marginTop: "0.6rem",
     textDecoration: "none",
     color: "black",
@@ -45,12 +43,15 @@ const useStyles = makeStyles(() => ({
     fontSize: "20px",
     marginBottom: "1.5rem",
   },
+  firstItem: {
+    backgroundColor: "red"
+  },
   drawerContainer: {
     opacity:"1",
     width: "80vw",
     margin: "0rem",
     height: "100vh",
-    backgroundColor:"yellow",
+    backgroundColor:"#A6D1E6",
     alignContent: "center",
     opacity:"1",
     display: "grid",
@@ -59,6 +60,8 @@ const useStyles = makeStyles(() => ({
   drawerMain: {
     backgroundColor:"transparent",
     opacity:"1",
+
+
   }
  
 }));
@@ -76,26 +79,26 @@ const Header = (props) => {
   const {
     classHeader="homeHeader",
     pageLogo=" OECT",
-    first="Home",
+    first="Oromo Evangelical Church of Toronto",
     second="Services",
     third="Location",
     fourth= "Ministries",
     fifth= "Events",
-    // sixth="Live Stream",
+    sixth="Donations",
     seventh= "Gallery",
-    icon1=<HomeIcon fontSize="small" />,
+    // icon1=<HomeIcon fontSize="small" />,
     icon2=<AddAlertIcon fontSize="small" />,
     icon4=<MenuBookIcon fontSize="small" />,
     icon3=<LocationCityIcon fontSize="small" />,
     icon5=<EventIcon fontSize="small" />,
-    // icon6=<LiveTvIcon fontSize="small" />,
+    icon6=<AttachMoneyIcon fontSize="small" />,
     icon7=<PhotoCameraIcon fontSize="small" />,
     path1="/",
     path2="/Services",
     path3="/Locations",
     path4="/Ministries",
     path5="/Events",
-    // path6="/Live_Stream",
+    path6="/Donations",
     path7="/Galleries",
     imgAlt="Cross",
     imgSrc="/images/Oromo Evangelical Church of Toronto Logo.png"
@@ -127,24 +130,23 @@ const Header = (props) => {
   const displayDesktop = () => {
     return (
       <Toolbar className={`${props.classHeader}`}>
-        <Grid container>
-          <Grid item container sm={2} justifyContent="left" component="div">
-            <Avatar alt={imgAlt} src={imgSrc} />
-            &nbsp;&nbsp;
-            <Typography variant="h6" align="center">
-              {pageLogo}
-            </Typography>
+        {/* <Grid container> */}
+          <Grid item container sm={1} alignContent="right" component="div" className="homeLogo">
+            <Avatar alt={imgAlt} src={imgSrc}/>
+            {/* <Typography variant="body3" align="center">
+              Oromo Evangelical Church of Toronto
+            </Typography> */}
           </Grid>
-          <Grid
-            item
-            container
-            justifyContent="left"
-            sm={10}
-            alignContent="left"
+          <Grid             
+            // container
+            // justifyContent="center"
+            // alignContent="center"
+            // xl={12} 
+            className="troubleGrid"
           >
             {getMenuButtons()}
-          </Grid>
-        </Grid>
+          </Grid >
+        {/* </Grid> */}
       </Toolbar>
     );
   };
@@ -198,7 +200,7 @@ const Header = (props) => {
       <React.Fragment>
  
         <Button className={menuDownButton}><Link to={path1}>
-          {first}
+          OECT Home
         </Link></Button>
         <Button className={menuDownButton}><Link to={path2}>
           {second}
@@ -212,9 +214,9 @@ const Header = (props) => {
         <Button className={menuDownButton}><Link to={path5}>
           {fifth}
         </Link></Button>
-        {/* <Button className={menuDownButton}><Link to={path6}>
+        <Button className={menuDownButton}><Link to={path6}>
           {sixth}
-        </Link></Button> */}
+        </Link></Button>
         <Button className={menuDownButton}><Link to={path7}>
           {seventh}
         </Link></Button>
@@ -233,8 +235,7 @@ const Header = (props) => {
     return (
       <React.Fragment>
         <Link to={path1} className={headerLink}>
-          {icon1}&nbsp;&nbsp;
-          {first}
+        &nbsp;&nbsp;{first}
         </Link>
         <Link to={path2} className={headerLink}>
           {icon2}&nbsp;&nbsp;
@@ -252,10 +253,10 @@ const Header = (props) => {
           {icon5}&nbsp;&nbsp;
           {fifth}
         </Link>
-        {/* <Link to={path6} className={headerLink}>
+        <Link to={path6} className={headerLink}>
           {icon6}&nbsp;&nbsp;
           {sixth}
-        </Link> */}
+        </Link>
         <Link to={path7} className={headerLink}>
           {icon7}&nbsp;&nbsp;
           {seventh}

@@ -13,6 +13,7 @@ import Locations from "./Locations/Locations";
 import Ministries from "./Ministries/Ministries";
 import Events from "./Events/Events";
 import Live_Stream from "./Live_Stream/Live_Stream";
+import Donations from "./Donations/Donations";
 import Galleries from "./Galleries/Galleries";
 import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/core";
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/Ministries" exact component={Ministries} />
         <Route path="/Events" exact component={Events} />
         <Route path="/Live_Stream" component={Live_Stream} />
+        <Route path="/Donations" exact component={Donations} />
         <Route path="/Galleries" exact component={Galleries} />
       </BrowserRouter>
     </ThemeProvider>

@@ -23,7 +23,7 @@ const useStyles = makeStyles(() => ({
   },
   homePaper: {
     marginTop: "3rem",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
     textAlign: "center",
     alignItems: "center"
   },
@@ -33,7 +33,7 @@ const useStyles = makeStyles(() => ({
     textAlign: "center",
     alignItems: "center",
     borderStyle: "none",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
     boxShadow: "none",
   },
   social_media: {
@@ -41,7 +41,7 @@ const useStyles = makeStyles(() => ({
     margin: "auto",
     paddingTop: "1rem",
     borderStyle: "none",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
     boxShadow: "none",
   }
 }));
@@ -65,7 +65,7 @@ const Contactinfo = () => {
             className={classes.contactCard}>
               <Typography variant="h5">Contact Us</Typography>
               <Typography>
-                  If you have any questions, concerns, comments, prayer requests, struggles, general inquiries, or anything in general, please do not hesitate to contact us! This is open to all, and we encourage you to do so. We respect your privacy, and will provide responses as best as we can.
+              If you have specific questions, prayer requests, or general inquiries, please contact us!
               </Typography>
               <Card className={classes.social_media}>
               <a
@@ -97,6 +97,11 @@ const Contactinfo = () => {
                 </Typography>
               </a>
               </Card>
+              <br/>
+              <Typography variant="h6">Address </Typography>
+              <Typography variant="body1" component="">330 Bellamy Road North</Typography>
+              <Typography variant="body1" component="">Scarborough, ON </Typography>
+              <Typography variant="body1" component="">M1H 1E8, Canada</Typography>
             </Card>
         
       </Container>

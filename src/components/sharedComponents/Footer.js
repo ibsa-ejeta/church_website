@@ -7,7 +7,7 @@ const useStyles = makeStyles(() => ({
     right:0,
     width: "100vw",
     paddingTop: "0rem",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
     position: "fixed"
   },
   footer_text: {

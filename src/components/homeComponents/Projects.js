@@ -19,13 +19,13 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "2rem",
     marginTop: "3rem",
     marginBottom: "5rem",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
   },
   homePaper_mobile: {
     paddingTop: "1rem",
     marginTop: "2rem",
     marginBottom: "1rem",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
   },
 
   img: {
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     alignItems: "center",
     borderStyle: "none",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
     boxShadow: "none",
   },
   projectCard_small: {
@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     alignItems: "center",
     borderStyle: "none",
-    backgroundColor: "yellow",
+    backgroundColor: "#A6D1E6",
     boxShadow: "none",
   },
   projectButton: {

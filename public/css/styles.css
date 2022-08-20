@@ -2,10 +2,10 @@
 /* home page styles */
 html, body {
     height: 100%;
-    background-color: yellow;
+    background-color: #A6D1E6;
 }
 #root {
-  background-color: yellow;
+  background-color: #A6D1E6;
   width: 100%
 }
 
@@ -14,21 +14,43 @@ html, body {
   margin-right: 0;
   padding-top: 2rem;
   text-align: center;  
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
+.firstHeader {
+  font-family: "Open Sans, sans-serif";
+  font-weight: 500;
+  font-size: "15px";
+  margin-left: "3rem";
+  margin-right: "3rem";
+  margin-top: "0.6rem";
+  text-decoration: "none";
+  color: "red";
+
+  
+  /* "&:hover": {
+    color: "grey";
+    textDecoration: "none"; */
+  /* } */
+  
+}
+.avatar {
+  display:inline-block;
+  background-color: red;
+}
+
 .gallery {
   margin-left: 0;
   margin-right: 0;
   padding-top: 2rem;
   text-align: center;  
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
 .ministries_page {
   margin-left: 0;
   margin-right: 0;
   padding-top: 2rem;
   text-align: center;  
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
 .homeIntroduction {
     text-align: center;
@@ -52,10 +74,9 @@ html, body {
   width: 80vw;
 }
 .homeHeader {
-  background-color: yellow;
+  background-color: #A6D1E6;
   color: black;
   box-shadow: none;
-  
   padding: 1.5rem 0rem;
 
 }
@@ -63,7 +84,7 @@ html, body {
   padding-top: 4rem;
 }
 .projectCard {
-  background-color:yellow;
+  background-color:#A6D1E6;
   margin: 0;
   padding: 0;
   margin: 3rem;
@@ -72,17 +93,22 @@ html, body {
   border-style: none;
   box-shadow: none;
 }
+.troubleGrid {
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
 
+}
 .homeContact {
   height: 80vh;
   padding-top: 5rem;
   margin-left: 19rem;
   margin-right: 10rem;
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
 .homeFooter {
     color: black;
-    background-color: yellow;
+    background-color: #A6D1E6;
     height: 4rem;
     width: 100vw;
     bottom: 0;
@@ -93,6 +119,10 @@ html, body {
   padding: 0;
   
 }
+.homeLogo {
+  align-items:flex-end;
+  justify-content: end;
+}
 .google_map {
   margin-top: 5rem;
   width: 50vw;
@@ -101,13 +131,20 @@ html, body {
 
   margin-top: 4rem;
   text-align: center;  
-  background-color: yellow;
+  background-color: #A6D1E6;
+}
+.donations {
+
+  margin-top: 8rem;
+  text-align: center;  
+  background-color: #A6D1E6;
+  padding: 2rem;
 }
 .events {
   margin: 2rem;
   margin-top: 8rem;
   text-align: center;  
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
 .events_image {
   margin: 2rem;
@@ -120,7 +157,7 @@ html, body {
 }
 .intro_grid {
   text-align: center;  
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
 .sliderimg {
   margin-top: 7rem;
@@ -135,12 +172,12 @@ html, body {
   display: grid;
   justify-content: center;
   height: 80vh;
-  background-color: yellow;
+  background-color: #A6D1E6;
 
 }
 .worship_text {
   margin-bottom: 2rem;
-  background-color: yellow;
+  background-color: #A6D1E6;
 }
 .youtube_video {
   margin-top: 7rem;
@@ -161,12 +198,12 @@ html, body {
 
 @media (max-width: 576px) {
   #root {
-    background-color: yellow;
+    background-color: #A6D1E6;
     height: 100vh;
   }
   body {
     font-size: small;
-    background-color: yellow;
+    background-color: #A6D1E6;
   }
  
   .homePage {
@@ -174,7 +211,7 @@ html, body {
     height: 30vh;
   }
   .homeHeader {
-    background-color: yellow;
+    background-color: #A6D1E6;
     color: black;
     box-shadow: none;
     padding:0rem;
@@ -238,7 +275,7 @@ html, body {
   }
   .worship_text {
     margin-bottom: 2rem;
-    background-color: yellow;
+    background-color: #A6D1E6;
   }
   
   .youtube_video {
@@ -258,6 +295,13 @@ html, body {
     justify-content: center;
     padding: 1rem;
     margin-top: 2rem;
+  }
+  .donations {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 4rem;
   }
   .events {
     align-items: center;
@@ -282,6 +326,7 @@ html, body {
     text-align: center;
     margin: auto;
   }
+  
   .google_map {
     width: 80vw;
     height: 40vw;
