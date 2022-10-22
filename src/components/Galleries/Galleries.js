@@ -27,7 +27,7 @@ const Galleries = () => {
             <img src="images/congregation.jpg" className="sliderimg"/>
             <img src="images/group_photo.jpg" className="sliderimg"/>
             <iframe
-              src="https://www.youtube.com/embed/07idXBG5TU0"
+              src="https://www.youtube.com/embed/konjupHenNc"
               frameborder="0"
               allow="autoplay; encrypted-media"
               allowfullscreen
@@ -35,15 +35,14 @@ const Galleries = () => {
               className="youtube_video"
             />
         
-            <iframe 
-              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FOromoCCToronto%2Fvideos%2F366017864090488%2F&show_text=false&t=0" 
-              className="youtube_video"
+            <iframe
+              src="https://www.youtube.com/embed/GK-iFTn5-RA"
               frameborder="0"
+              allow="autoplay; encrypted-media"
               allowfullscreen
-              allow="autoplay; encrypted-media;" 
-              title="facebook video"
-            /> 
-      
+              title="video"
+              className="youtube_video"
+            />
           </AliceCarousel>
           
           </Container>

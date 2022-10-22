@@ -68,7 +68,7 @@ const Contactinfo = () => {
               If you have specific questions, prayer requests, or general inquiries, please contact us!
               </Typography>
               <Card className={classes.social_media}>
-              <a
+              {/* <a
                 href="https://www.facebook.com/OromoCCToronto"
                 target="_blank"
                 rel="noreferrer"
@@ -76,9 +76,9 @@ const Contactinfo = () => {
                 <Typography variant="h6">
                   <FacebookIcon fontSize="" /> Facebook
                 </Typography>
-              </a>
+              </a> */}
               <a
-                href="https://www.youtube.com/channel/UCu14_sVsELcJfIE2FES17VA"
+                href="https://www.youtube.com/channel/UC9a_uVqsWTs1BlbBKI9mp1g"
                 target="_blank"
                 rel="noreferrer"
               >
